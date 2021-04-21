@@ -22,7 +22,7 @@
 
 ## Projeto
 
-O Dev_Quiz é um projeto idealizado pela 
+O Dev.Quiz é um projeto idealizado pela 
 <a href="https://rocketseat.com.br/"> **@Rocketseat** </a> 
 com a intensão de criar um aplicativo mobile para praticar a framework Flutter.
 
