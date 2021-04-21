@@ -1,7 +1,11 @@
 import 'package:DevQuiz/core/core.dart';
 import 'package:flutter/material.dart';
 
-class ChartWdiget extends StatelessWidget {
+class ChartWidget extends StatelessWidget {
+  final int score;
+
+  const ChartWidget({Key? key, required this.score}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -24,7 +28,7 @@ class ChartWdiget extends StatelessWidget {
           ),
           Center(
               child: Text(
-            "75%",
+            "${score}%",
             style: AppTextStyles.heading,
           ))
         ],
